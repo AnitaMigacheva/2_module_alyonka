@@ -49,6 +49,9 @@ header {
   width: 24px;
   height: 24px;
 }
+.burger:hover {
+  cursor: pointer;
+}
 .burger::after, .burger::before {
   position: absolute;
   background: white;
@@ -82,7 +85,7 @@ header {
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .menu-open li {
-  padding: 1.2em 2em;
+  padding: 1em 2em 1.2em;
 }
 .menu-open li:hover {
   background: #2e2e2e;
@@ -165,7 +168,7 @@ header {
 .perks li {
   color: var(--gray);
   padding: 16px 0 48px;
-  border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #e5e5e5;
 }
 .perks li em {
   color: #000;
@@ -275,12 +278,12 @@ header {
   width: 100%;
   padding: 24px;
   animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+  animation-delay: 3s;
+  animation-iteration-count: 6;
 }
 .shop__items__item a {
   border-radius: 8px;
-  background-color: #1B76FF;
+  background-color: #1b76ff;
   display: flex;
   justify-content: center;
   padding-top: 16px;
@@ -345,6 +348,9 @@ footer .social li {
   justify-content: center;
   height: 50px;
   width: 50px;
+}
+footer .social li:hover {
+  background: #1b76ff;
 }
 footer .cont {
   padding-right: 88px;
